@@ -1,0 +1,13 @@
+{
+  "view": "timeSeries",
+  "stacked": false,
+  "metrics": [
+      [ "AWS/EC2", "CPUUtilization", "InstanceId", "your-instance-id", { "region": "your-region" } ],
+      [ "AWS/EC2", "CPUUtilization", "InstanceId", "your-instance-id" ]
+  ],
+  "period": 300,
+  "width": 649,
+  "height": 200,
+  "start": "-PT3H",
+  "end": "P0D"
+}
